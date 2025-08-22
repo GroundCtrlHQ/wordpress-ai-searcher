@@ -51,8 +51,8 @@ python -m src.main
 
 1. **Clone or download the project:**
    ```bash
-   git clone <repository-url>
-   cd wiggins
+   git clone https://github.com/GroundCtrlHQ/wordpress-ai-searcher.git
+   cd wordpress-ai-searcher
    ```
 
 2. **Create virtual environment:**
@@ -189,7 +189,7 @@ Result 1
 Title: Gambling White Paper - Key Proposals: Children & Young adults
 Excerpt: Move from 'Think 21' to 'Think 25' for land-based licensees... Amended LCCP Ordinary codes took effect on 30 August 2024.
 👤 Jose Garcia | 📅 July 25, 2025
-🔗 https://dev.wiggin.co.uk/insight/custom-content-popup-development-page/
+🔗 https://example.com/insight/gambling-regulations/
 ```
 
 ## Recent Improvements
@@ -250,7 +250,7 @@ User Query → AI Processing → Tool Call → WordPress API → Results Process
 ### Project Structure
 
 ```
-wiggins/
+wordpress-ai-searcher/
 ├── src/
 │   ├── __init__.py
 │   ├── main.py              # CLI entry point

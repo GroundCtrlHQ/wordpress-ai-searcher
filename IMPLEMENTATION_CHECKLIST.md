@@ -12,10 +12,10 @@
   - [x] `rich` (for terminal formatting)
   - [x] `click` (for CLI interface)
 - [x] Create `.env` file with:
-  - [x] `OPENROUTER_API_KEY=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`
-  - [x] `WORDPRESS_API_URL=https://dev.wiggin.co.uk/wp-json/wp-ai-content/v1/content`
-  - [x] `WORDPRESS_USERNAME=wiggin`
-  - [x] `WORDPRESS_PASSWORD=Development1234`
+  - [x] `OPENROUTER_API_KEY=your_openrouter_api_key_here`
+  - [x] `WORDPRESS_API_URL=https://your-wordpress-site.com/wp-json/wp-ai-content/v1/content`
+  - [x] `WORDPRESS_USERNAME=your_wordpress_username`
+  - [x] `WORDPRESS_PASSWORD=your_wordpress_password`
   - [x] `AI_MODEL=z-ai/glm-4.5-air:free` (free OpenRouter model with tool calling)
   - [x] `MAX_RESULTS=5`
   - [x] `REQUEST_TIMEOUT=30`
@@ -393,7 +393,7 @@ python -m src.main
 ## API Endpoint Details
 
 ### WordPress API
-**Base URL:** `https://dev.wiggin.co.uk/wp-json/wp-ai-content/v1/content`
+**Base URL:** `https://your-wordpress-site.com/wp-json/wp-ai-content/v1/content`
 
 **Authentication:** Basic Auth (configure in .env file)
 
